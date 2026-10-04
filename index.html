@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#211b19">
+  <meta name="description" content="An invitation to celebrate the engagement of Nicole and Jonas.">
+  <title>Nicole &amp; Jonas | An Engagement Celebration</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <!-- Site navigation -->
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Nicole and Jonas, home">N <span>&amp;</span> J</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+      <span class="menu-toggle-label">Menu</span>
+      <span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+    </button>
+    <nav class="primary-navigation" id="primary-navigation" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#details">Details</a>
+      <a href="#celebration">Celebration</a>
+      <a class="nav-rsvp" href="#rsvp">RSVP <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <!-- Full-screen invitation -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-art" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow hero-eyebrow">A gathering beneath the garden boughs</p>
+        <div class="name-frame">
+          <span class="frame-ornament frame-ornament-top" aria-hidden="true">✧ &nbsp; ❧ &nbsp; ✧</span>
+          <h1 id="hero-title">Nicole <span class="name-ampersand">&amp;</span> Jonas</h1>
+          <span class="frame-ornament frame-ornament-bottom" aria-hidden="true">❧</span>
+        </div>
+        <p class="hero-subtitle">An Engagement Celebration</p>
+        <div class="hero-eventline" aria-label="Event date, time, and location">
+          <span data-event="date">[DATE]</span><span class="eventline-dot" aria-hidden="true">◆</span>
+          <span data-event="time">[TIME]</span><span class="eventline-dot" aria-hidden="true">◆</span>
+          <span data-event="location">[VENUE / CITY]</span>
+        </div>
+        <a class="button button-gold hero-button" href="#rsvp">Kindly Respond <span aria-hidden="true">↗</span></a>
+        <a class="scroll-cue" href="#welcome"><span aria-hidden="true">↓</span> Discover the evening</a>
+      </div>
+      <div class="hero-caption" aria-hidden="true">A night to remember</div>
+    </section>
+
+    <!-- Welcome -->
+    <section class="welcome section-shell" id="welcome" aria-labelledby="welcome-title">
+      <p class="eyebrow">A note from the two of us</p>
+      <h2 id="welcome-title">Join Us in <em>Celebration</em></h2>
+      <p class="welcome-copy">We would be honored to have you join us as we celebrate our engagement with an evening of food, wine, music, and celebration.</p>
+      <div class="ornamental-divider" aria-hidden="true"><span>✧</span><i></i><span class="divider-leaf">❧</span><i></i><span>✧</span></div>
+    </section>
+
+    <!-- Event details -->
+    <section class="details-section section-shell" id="details" aria-labelledby="details-title">
+      <div class="section-heading">
+        <p class="eyebrow">Practical particulars</p>
+        <h2 id="details-title">The <em>Gathering</em></h2>
+      </div>
+      <div class="details-card">
+        <div class="details-intro">
+          <span class="details-monogram" aria-hidden="true">N <i>&amp;</i> J</span>
+          <p>An evening set aside<br>for good company.</p>
+          <span class="details-rule" aria-hidden="true"></span>
+        </div>
+        <dl class="details-list">
+          <div class="detail-item">
+            <dt><span class="detail-icon" aria-hidden="true">✧</span> Date</dt>
+            <dd data-event="date">[DATE]</dd>
+          </div>
+          <div class="detail-item">
+            <dt><span class="detail-icon" aria-hidden="true">◷</span> Time</dt>
+            <dd data-event="time">[TIME]</dd>
+          </div>
+          <div class="detail-item">
+            <dt><span class="detail-icon" aria-hidden="true">⌖</span> Location</dt>
+            <dd data-event="location">[VENUE / CITY]</dd>
+          </div>
+          <div class="detail-item">
+            <dt><span class="detail-icon" aria-hidden="true">❧</span> Attire</dt>
+            <dd data-event="attire">[ATTIRE DESCRIPTION]</dd>
+          </div>
+          <div class="detail-item">
+            <dt><span class="detail-icon" aria-hidden="true">✉</span> RSVP by</dt>
+            <dd data-event="rsvpDeadline">[RSVP DEADLINE]</dd>
+          </div>
+        </dl>
+        <div class="details-action">
+          <a class="button button-outline" data-location-link href="#">View Location <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Celebration program -->
+    <section class="celebration-section section-shell" id="celebration" aria-labelledby="celebration-title">
+      <div class="section-heading">
+        <p class="eyebrow">The pleasures of the evening</p>
+        <h2 id="celebration-title">An Evening of <em>Celebration</em></h2>
+        <p class="section-intro">A garden gathering, shared in the finest company.</p>
+      </div>
+      <div class="celebration-grid">
+        <article class="celebration-item"><span class="celebration-symbol" aria-hidden="true">♨</span><h3>Dinner &amp; Feast</h3><span class="item-rule" aria-hidden="true"></span></article>
+        <article class="celebration-item"><span class="celebration-symbol" aria-hidden="true">♜</span><h3>Wine &amp; Beer</h3><span class="item-rule" aria-hidden="true"></span></article>
+        <article class="celebration-item"><span class="celebration-symbol" aria-hidden="true">♫</span><h3>Music &amp; Dancing</h3><span class="item-rule" aria-hidden="true"></span></article>
+        <article class="celebration-item"><span class="celebration-symbol" aria-hidden="true">⚜</span><h3>Maypole Dance</h3><span class="item-rule" aria-hidden="true"></span></article>
+        <article class="celebration-item"><span class="celebration-symbol" aria-hidden="true">❧</span><h3>Garden Celebration</h3><span class="item-rule" aria-hidden="true"></span></article>
+        <article class="celebration-item"><span class="celebration-symbol" aria-hidden="true">❋</span><h3>Dessert &amp; Cake</h3><span class="item-rule" aria-hidden="true"></span></article>
+      </div>
+    </section>
+
+    <!-- RSVP invitation and form -->
+    <section class="rsvp-section section-shell" id="rsvp" aria-labelledby="rsvp-title">
+      <div class="rsvp-card">
+        <div class="rsvp-card-ornament" aria-hidden="true">✧ &nbsp; ❧ &nbsp; ✧</div>
+        <p class="eyebrow">We hope you can join us</p>
+        <h2 id="rsvp-title">Kindly <em>Respond</em></h2>
+        <p class="rsvp-intro">Please reply by <strong data-event="rsvpDeadline">[RSVP DEADLINE]</strong>.</p>
+        <p class="form-note">Your response is not sent or saved in this preview. The RSVP form needs a connected service before replies can reach us.</p>
+
+        <form id="rsvp-form" novalidate>
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="first-name">First Name <span aria-hidden="true">*</span></label>
+              <input id="first-name" name="firstName" autocomplete="given-name" required aria-describedby="first-name-error">
+              <span class="field-error" id="first-name-error"></span>
+            </div>
+            <div class="form-field">
+              <label for="last-name">Last Name <span aria-hidden="true">*</span></label>
+              <input id="last-name" name="lastName" autocomplete="family-name" required aria-describedby="last-name-error">
+              <span class="field-error" id="last-name-error"></span>
+            </div>
+            <div class="form-field">
+              <label for="email">Email Address <span aria-hidden="true">*</span></label>
+              <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error">
+              <span class="field-error" id="email-error"></span>
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone Number <span class="optional">(optional)</span></label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel">
+            </div>
+          </div>
+
+          <fieldset class="form-field choice-field">
+            <legend>Will you be joining us? <span aria-hidden="true">*</span></legend>
+            <div class="choice-row">
+              <label class="choice-card"><input type="radio" name="attendance" value="accept" required aria-describedby="attendance-error"><span class="choice-mark" aria-hidden="true"></span><span>Joyfully Accepts</span></label>
+              <label class="choice-card"><input type="radio" name="attendance" value="decline" required aria-describedby="attendance-error"><span class="choice-mark" aria-hidden="true"></span><span>Regretfully Declines</span></label>
+            </div>
+            <span class="field-error" id="attendance-error"></span>
+          </fieldset>
+
+          <div class="conditional-panel" id="attending-fields" hidden>
+            <div class="form-field">
+              <label for="attendee-count">How many guests are included in your invitation? <span aria-hidden="true">*</span></label>
+              <select id="attendee-count" name="attendeeCount" aria-describedby="attendee-count-error">
+                <option value="">Select number of attendees</option>
+                <option value="1">1 attendee</option>
+                <option value="2">2 attendees</option>
+                <option value="3">3 attendees</option>
+                <option value="4">4 attendees</option>
+                <option value="5">5 attendees</option>
+                <option value="6">6 attendees</option>
+              </select>
+              <span class="field-error" id="attendee-count-error"></span>
+            </div>
+            <div class="additional-guests" id="additional-guests" aria-live="polite"></div>
+
+            <fieldset class="form-field choice-field dietary-field">
+              <legend>Do you have any dietary restrictions or allergies? <span aria-hidden="true">*</span></legend>
+              <div class="dietary-options">
+                <label class="check-option"><input type="checkbox" name="dietary" value="none" aria-describedby="dietary-error"> <span>No</span></label>
+                <label class="check-option"><input type="checkbox" name="dietary" value="vegetarian" aria-describedby="dietary-error"> <span>Vegetarian</span></label>
+                <label class="check-option"><input type="checkbox" name="dietary" value="vegan" aria-describedby="dietary-error"> <span>Vegan</span></label>
+                <label class="check-option"><input type="checkbox" name="dietary" value="gluten-free" aria-describedby="dietary-error"> <span>Gluten Free</span></label>
+                <label class="check-option"><input type="checkbox" name="dietary" value="allergy" aria-describedby="dietary-error"> <span>Food Allergy</span></label>
+                <label class="check-option"><input type="checkbox" name="dietary" value="other" aria-describedby="dietary-error"> <span>Other</span></label>
+              </div>
+              <span class="field-error" id="dietary-error"></span>
+            </fieldset>
+            <div class="form-field dietary-details" id="dietary-details" hidden>
+              <label for="dietary-more">Please tell us more <span aria-hidden="true">*</span></label>
+              <input id="dietary-more" name="dietaryDetails" aria-describedby="dietary-more-error">
+              <span class="field-error" id="dietary-more-error"></span>
+            </div>
+
+            <fieldset class="form-field choice-field">
+              <legend>Will you be drinking alcohol? <span aria-hidden="true">*</span></legend>
+              <div class="choice-row choice-row-compact">
+                <label class="choice-card"><input type="radio" name="alcohol" value="yes" aria-describedby="alcohol-error"><span class="choice-mark" aria-hidden="true"></span><span>Yes</span></label>
+                <label class="choice-card"><input type="radio" name="alcohol" value="no" aria-describedby="alcohol-error"><span class="choice-mark" aria-hidden="true"></span><span>No</span></label>
+              </div>
+              <span class="field-error" id="alcohol-error"></span>
+            </fieldset>
+          </div>
+
+          <div class="form-field message-field">
+            <label for="message">Leave a note for the couple <span class="optional">(optional)</span></label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+
+          <div class="form-status" id="form-status" role="alert" aria-live="polite"></div>
+          <button class="button button-gold submit-button" type="submit">Send RSVP <span aria-hidden="true">↗</span></button>
+        </form>
+
+        <div class="confirmation" id="confirmation" tabindex="-1" hidden>
+          <div class="confirmation-flourish" aria-hidden="true">✧ ❧ ✧</div>
+          <h3 id="confirmation-title"></h3>
+          <p id="confirmation-message"></p>
+          <p class="confirmation-note">This is a local preview only; your response has not been sent or saved.</p>
+          <div class="ornamental-divider" aria-hidden="true"><span>✧</span><i></i><span class="divider-leaf">❧</span><i></i><span>✧</span></div>
+        </div>
+        <div class="rsvp-card-ornament rsvp-card-bottom" aria-hidden="true">❧</div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site footer -->
+  <footer class="site-footer">
+    <a class="footer-names" href="#home">Nicole <span>&amp;</span> Jonas</a>
+    <p>Engagement Celebration</p>
+    <div class="footer-divider" aria-hidden="true">✧ <span>❧</span> ✧</div>
+    <a class="back-to-top" href="#home">Return to the beginning <span aria-hidden="true">↑</span></a>
+  </footer>
+</body>
+</html>

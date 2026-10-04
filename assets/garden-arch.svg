@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="800" y1="0" x2="800" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6b5949"/>
+      <stop offset=".48" stop-color="#3e3831"/>
+      <stop offset="1" stop-color="#1d241f"/>
+    </linearGradient>
+    <linearGradient id="arch" x1="800" y1="45" x2="800" y2="985" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a4865a" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#47382e" stop-opacity=".12"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(0 410 -590 0 800 488)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b9955b" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#b9955b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ground" x1="800" y1="700" x2="800" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#354137" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#17211b"/>
+    </linearGradient>
+    <filter id="soften" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1600v1000H0z"/>
+  <path fill="url(#glow)" d="M0 0h1600v1000H0z"/>
+  <g opacity=".52" filter="url(#soften)" fill="#26372c">
+    <path d="M0 304c101-125 206-114 309-52 70-92 188-124 290-58 106-99 231-102 334-18 87-103 223-126 333-52 105-93 237-75 334-4v511H0V304Z"/>
+    <path d="M0 405c120-109 226-108 333-41 89-87 187-85 279-8 117-102 221-83 312-13 99-93 208-86 310-7 113-91 244-66 366 7v483H0V405Z" opacity=".72"/>
+  </g>
+  <path fill="url(#ground)" d="M0 729c223-57 453-86 800-85 347-1 577 28 800 85v271H0V729Z"/>
+  <!-- Roman garden arch and pilasters -->
+  <path d="M311 1000V433C311 158 500 48 800 48s489 110 489 385v567" stroke="#d0b779" stroke-opacity=".54" stroke-width="5"/>
+  <path d="M337 1000V439c0-259 174-365 463-365s463 106 463 365v561" stroke="#d0b779" stroke-opacity=".19" stroke-width="2"/>
+  <path d="M378 1000V448c0-232 147-327 422-327s422 95 422 327v552" stroke="#b9955b" stroke-opacity=".27" stroke-width="2"/>
+  <path d="M311 424h102m774 0h102M294 447h92m828 0h92" stroke="#d0b779" stroke-opacity=".5" stroke-width="5"/>
+  <path d="M287 1000V449m21-25V1000m66-552V1000m830-552V1000m66-424V1000m21-576V1000" stroke="#b9955b" stroke-opacity=".25" stroke-width="3"/>
+  <!-- Distant garden path -->
+  <path d="M611 1000c56-131 78-216 107-348 18-84 35-125 82-125s64 41 82 125c29 132 51 217 107 348" fill="#8a704c" fill-opacity=".1"/>
+  <path d="M800 535c-3 167-4 305 0 465" stroke="#d0b779" stroke-opacity=".23" stroke-width="2"/>
+  <path d="M800 535c-54 155-100 307-132 465m132-465c54 155 100 307 132 465" stroke="#d0b779" stroke-opacity=".14" stroke-width="2"/>
+  <!-- Candlelit garden lanterns -->
+  <g fill="#d1ad69">
+    <circle cx="571" cy="631" r="5" opacity=".84"/>
+    <circle cx="1029" cy="631" r="5" opacity=".84"/>
+    <circle cx="473" cy="713" r="4" opacity=".7"/>
+    <circle cx="1127" cy="713" r="4" opacity=".7"/>
+    <circle cx="678" cy="727" r="4" opacity=".65"/>
+    <circle cx="922" cy="727" r="4" opacity=".65"/>
+    <circle cx="390" cy="803" r="3.5" opacity=".56"/>
+    <circle cx="1210" cy="803" r="3.5" opacity=".56"/>
+  </g>
+  <g stroke="#d0b779" stroke-opacity=".27">
+    <path d="M571 636v18m-7-18h14m-105 77v17m-6-17h12m209 18v15m-6-15h12"/>
+    <path d="M1029 636v18m-7-18h14m105 77v17m-6-17h12m-209 18v15m-6-15h12"/>
+  </g>
+  <!-- Restrained vine details at the arch's upper corners -->
+  <g stroke="#a6a077" stroke-opacity=".48" stroke-width="2">
+    <path d="M337 386c49-50 91-91 145-115 42-19 82-21 120-4m-265 133c36-52 71-89 111-105m-70 43c-10-31-6-56 10-75m48 44c14-34 37-55 68-63m-9 40c25-22 50-33 77-32"/>
+    <path d="M1263 386c-49-50-91-91-145-115-42-19-82-21-120-4m265 133c-36-52-71-89-111-105m70 43c10-31 6-56-10-75m-48 44c-14-34-37-55-68-63m9 40c-25-22-50-33-77-32"/>
+  </g>
+  <g fill="#a6a077" fill-opacity=".42">
+    <path d="M424 305c-23-20-30-42-24-66 19 5 32 22 35 49l-11 17Zm57-34c-5-29 5-50 30-64 11 19 8 41-10 65l-20-1Zm78-9c11-24 31-36 60-36 0 22-13 39-40 50l-20-14Zm-152 54c-28-10-43-28-45-56 22-3 42 8 58 33l-13 23Z"/>
+    <path d="M1176 305c23-20 30-42 24-66-19 5-32 22-35 49l11 17Zm-57-34c5-29-5-50-30-64-11 19-8 41 10 65l20-1Zm-78-9c-11-24-31-36-60-36 0 22 13 39 40 50l20-14Zm152 54c28-10 43-28 45-56-22-3-42 8-58 33l13 23Z"/>
+  </g>
+</svg>
